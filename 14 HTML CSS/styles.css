@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+  font-family: serif;
+  font-size: 12px;
+}
+p {
+  color: blue;
+  font-family: serif;
+  font-size: 12px;
+}
+
+/* CSS Padding */
+p {
+  padding: 10px;
+  border: red solid 10px;
+}
+
+/* CSS Margin */
+p {
+  margin: 1px;
+  border: blue solid 10px;
+}
