@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML <picture> Element</title>
+</head>
+<body>
+    <h1>HTML <picture> Element</h1>
+        <picture>
+            <source media="(min-with: 650px)" srcset="https://images.unsplash.com/photo-1505880167668-ec27c3eb9110?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZGV0cm9pdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60">
+              <source media="(min-width: 650px)" srcset="img_food.jpg">
+
+        </picture>
+        <picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="https://images.unsplash.com/photo-1573112067224-58060384abd5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGV0cm9pdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60" style="width:auto;">
+</picture>
+</body>
+</html>
