@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Iframes</title>
+  </head>
+  <body>
+    <h1>HTML Iframes</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perferendis
+      quos autem modi laborum soluta sapiente eius doloremque iure rem. Ducimus
+      velit corrupti eum ab neque necessitatibus sunt facilis architecto!
+    </p>
+    <iframe
+      src="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihw-2ztKj_AhUHkIkEHXv4D4YQPAgJ"
+      frameborder="0"
+      height="200"
+      width="300"
+      style="border: 1px solid red"
+    ></iframe>
+    <h2>Iframe - Remove the Border</h2>
+    <iframe
+      src="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihw-2ztKj_AhUHkIkEHXv4D4YQPAgJ"
+      frameborder="0"
+      height="200"
+      width="300"
+      style="border: none"
+    ></iframe>
+    <h2>Iframe - Target for a Link</h2>
+    <iframe src="demo_iframe.html" frameborder="0" name="iframe_a"></iframe>
+    <a
+      href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwihw-2ztKj_AhUHkIkEHXv4D4YQPAgJ"
+      target="iframe_a"
+      ><p>www.google.com</p></a
+    >
+  </body>
+</html>
