@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML File Paths</title>
+  </head>
+  <body>
+    <h2>HTML File Paths</h2>
+    <p>web pages</p>
+    <a href="https://www.google.com/">Google</a>
+    <p>images</p>
+    <img src="/26 HTML File Paths/images/download.png" alt="image of google" />
+    <p>style sheets</p>
+    <link rel="stylesheet" href="styles.css" />
+    <p>javascript</p>
+    <h1>change text</h1>
+    <p id="change">Change me w/ javascript</p>
+    <button type="button" onclick="magic();">click me to change text</button>
+    <script>
+      function magic() {
+        document.getElementById("change").innerHTML = "Hello World!";
+      }
+    </script>
+  </body>
+</html>
