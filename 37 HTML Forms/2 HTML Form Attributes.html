@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Attributes</title>
+  </head>
+  <body>
+    <h1>HTML Form Attributes</h1>
+    <h2>The Action Attribute</h2>
+    <form action="/action_page.php" target="_blank">
+      <label for="fname">First Name:</label>
+      <input type="fname" id="fname" name="fname" value="John" /> <br />
+      <label for="lname">Last Name :</label>
+      <input type="lname" id="lname" name="lname" value="Doe" />
+    </form>
+    <button type="submit" value="Submit">Submit</button>
+    <h2>The Method Attribute</h2>
+    <form action="/action_page.php" method="get"></form>
+    <form action="/action_page.php" method="post"></form>
+    <h2>The Autocomplete Attribute</h2>
+    <form action="" autocomplete="on">
+      <label for="name">Name</label>
+      <input type="text" id="name" />
+      <h2>The Novalidate Attribute</h2>
+      <form action="/" novalidate></form>
+    </form>
+  </body>
+</html>
